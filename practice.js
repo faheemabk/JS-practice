@@ -8,15 +8,31 @@
 //let gender1 = "male";
 //let gender2 = "female";
 
-//3. Write a program that counts from 0 - 1000 and prints (for loop)
 //if (gender1 = "male") {
 //    console.log('hello male!')
 //} else {
 //    console.log('hello female')
 //}
 
-for(let i=1; i<=1000; i++){
-    console.log(i);
+//3. Write a program that counts from 0 - 1000 and prints (for loop)
+
+//for(let i=1; i<=1000; i++){
+//  console.log(i);
+//}
+let firstName = "faheem";
+let age = 21;
+let isMarried = false;
+
+
+console.log("this person's name is " + firstName + "Their age is " + age);
+
+if (isMarried == false) {
+  console.log(firstName + "is not married")
+} else {
+  console.log(firstName + "is married")
 }
 
 
+for(let i = 0; i<=100; i++){
+  console.log("hello faheem!")
+}
